@@ -1,3 +1,4 @@
+// js部分
 var title = document.getElementById('p_title');
 var slider = document.getElementById('slider');
 var oNavlist = document.getElementById('nav').children;
@@ -9,7 +10,7 @@ var timer;
 
 title_id = setInterval(function () {
 	var now = parseInt(getStyle(title, 'right'));
-	title.style.right = now + 10 + 'px';
+	title.style.right = now + 7 + 'px';
 	if (now >= 980) {
 		title.style.right = '-400px';
 	}
