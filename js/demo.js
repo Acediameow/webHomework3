@@ -10,7 +10,7 @@ var timer;
 
 title_id = setInterval(function () {
 	var now = parseInt(getStyle(title, 'right'));
-	title.style.right = now + 7 + 'px';
+	title.style.right = now + 5 + 'px';
 	if (now >= 980) {
 		title.style.right = '-400px';
 	}
